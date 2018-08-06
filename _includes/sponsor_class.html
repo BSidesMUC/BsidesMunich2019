@@ -1,0 +1,29 @@
+
+{% if include.class %}
+<div class="row">
+  <div class="col-md-12">
+    <div class="block">
+      <div class="sponsor-title">
+      {% if include.class == site.conference.sponsors.gold %}
+        <h2 id="sponsor-gold">Gold Sponsor</h2>
+      {% elsif include.class == site.conference.sponsors.silver %}
+        <h2 id="sponsor-silver">Silver Sponsor</h2>
+      {% elsif include.class == site.conference.sponsors.bronce %}
+        <h2 id="sponsor-silver">Bronze Sponsor</h2>
+      {% endif %}
+      </div>
+      <p>
+      {% for sponsor in include.class %}
+        {% if sponsor.uri %}
+        <a href="{{ sponsor.uri }}">
+        <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+        </a>    
+        {% else %}
+        <img src="{{ sponsor.logo | relative_url }}" alt="{{ sponsor.name }}">
+        {% endif %}
+      {% endfor %}
+      </p>
+    </div>
+  </div>
+</div>
+{% endif %}

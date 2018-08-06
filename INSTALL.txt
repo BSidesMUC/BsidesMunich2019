@@ -1,0 +1,8 @@
+# dependencies (not sure if the xml libs are really required...)
+sudo apt install ruby ruby-dev libffi-dev libxml2-dev ruby-libxml 
+
+# Gems
+sudo gem install bundler
+sudo gem install github-pages
+sudo bundler install
+

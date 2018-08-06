@@ -1,0 +1,142 @@
+
+# Site settings
+title: BSides Munich 2018
+subtitle: "A free security conference in the heart of Bavaria"
+url: "http://www.bsidesmunich.org" # the base hostname & protocol for your site
+# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
+baseurl: ""
+cover: "/assets/cover.png"
+logo: "/assets/logo.png"
+
+# Build settings
+markdown: kramdown
+
+collections:
+  talks:
+    output: true #Does not work
+    permalink: /:collection/:title/
+#    /:collection/:title/index.html
+  workshops:
+    output: true #Does not work
+    permalink: /:collection/:title/
+#    permalink: /:collection/:title
+
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
+imprint:
+  name: "BSides Munich, Mr. Frederic Mohr"
+  address: "Rohrauerstrasse 69, 81477 München"
+  email: "info [at] bsidesmunich [dot] org"
+  phone: "+49 17681407530"
+
+conference:
+  # contact e-mail, e.g., for sponsors
+  email: organizers@bsidesmunich.org
+  twitter: https://twitter.com/bsidesmunich
+  sponsors:
+    #show the sponsors in the footer of every page
+    footer: false
+    # sponsor logos should all have the same format (at least width)
+    gold:
+    - name: gold_sponsors
+      logo: /img/sponsors/gold.png
+    - name: Microsoft
+      logo: /img/sponsors/microsoft.png
+      uri: https://www.microsoft.com
+    - name: Siemens
+      logo: /img/sponsors/siemens.png
+      uri: https://www.siemens.com/entry/de/de/ingenuity-for-life/
+    silver:
+    - name: silver_sponsors
+      logo: /img/sponsors/silver.png
+    - name: CYOSS
+      logo: /img/sponsors/CYOSS.png
+      uri: https://www.esg.de/division/cyoss/
+    - name: BMW
+      logo: /img/sponsors/BMW.png
+      uri: https://www.bmw.com
+    - name: NSIDE ATTACK Logic
+      logo: /img/sponsors/nsideattack.png
+      uri: https://www.nsideattacklogic.de/
+    - name: Huawei
+      logo: /img/sponsors/huawei.png
+      uri: http://www.huawei.com/
+
+    bronce:
+    - name: bronze_sponsors
+      logo: /img/sponsors/bronze.png
+    - name: LastBreach
+      logo: /img/sponsors/lastbreach.png
+      uri: https://www.lastbreach.de
+    - name: Google
+      logo: /img/sponsors/google.png
+      uri: https://www.google.com
+  links:
+    cfw_uri: https://goo.gl/forms/0Ltz0dmgptvnrhZ03
+    cfp_uri: https://goo.gl/forms/Teo3Hya5IoioHr9e2
+    registration_uri: https://bsidesmunich2018conference.eventbrite.de/
+    sponsorpackage_uri: https://drive.google.com/file/d/1Lsji2_DzzBhGv2CYlRZcDl_9QU8mcnEz/view?usp=sharing
+    contickets_uri: https://www.eventbrite.de/e/bsides-munich-2018-conference-registration-40179712602
+    contickets_state: All tickets are gone, Waiting list is open
+    wstickets_uri: https://www.eventbrite.de/e/bsides-munich-2018-workshops-tickets-43314640255
+    wstickets_state: Registration opens on 26th February, 9pm
+  dates: 
+    deadline_tickets: 2017-12-08
+    deadline_cfp: 2018-02-01
+    workshops: 2018-04-08
+    conference: 2018-04-09
+  venue:
+    address: Walter-Gropius-Straße 5, 80807 München
+    maps_uri: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10642.019740511076!2d11.593453!3d48.177622!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x96e5ccd42f4f5155!2sMicrosoft+Deutschland+GmbH!5e0!3m2!1sde!2sde!4v1510408529708
+  archive:
+    # for include testimonial_2017.html
+    a2017:
+      participants: 78
+      presentations: 10
+      workshops: 3
+      hours: 9
+      website_uri: https://sites.google.com/view/bsidesmunich2017/home
+      recordings_uri: https://www.youtube.com/watch?v=k_D3GzzJ5hA&list=PL8N5HiRDvZ-dL4MElY5NUKmaqDmI7QfVy
+      archiveorg_uri: https://archive.org/details/BSidesMunich2017
+      slider:
+      - src: img/slider2017/organizers.jpg
+      - src: img/slider2017/IMG_20170403_145820.jpg
+      - src: img/slider2017/P4030023.jpg
+      - src: img/slider2017/P4030056.jpg
+      - src: img/slider2017/P4030102.jpg
+      - src: img/slider2017/P4030244.jpg
+      - src: img/slider2017/P4030312.jpg
+      - src: img/slider2017/P4030371.jpg
+      - src: img/slider2017/P4030518.jpg
+      - src: img/slider2017/P4030577.jpg
+      - src: img/slider2017/P4030676.jpg
+      - src: img/slider2017/P4030704.jpg
+
+compress_html:
+  clippings: all
+  comments: all
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+
+exclude:
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "INSTALL.txt"
+  - "LICENSE.md"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+pre_build:
+  commands:
+    - export LC_ALL="C.UTF-8"
+    - export LANG="en_US.UTF-8"
+    - export LANGUAGE="en_US.UTF-8"

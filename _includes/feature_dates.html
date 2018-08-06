@@ -1,0 +1,52 @@
+{::nomarkdown}
+    </div>
+  </div>
+</section>
+{:/}
+
+<section id="feature">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="feature-box">
+      <h2>Deadlines</h2>
+      <ul>
+        <li>Tickets: Registration opens {{ site.conference.dates.deadline_tickets | date: "%B %e, %Y"}}</li>
+        <li>CFP: Ends {{ site.conference.dates.deadline_cfp | date: "%B %e, %Y"}}</li>
+      </ul>
+      <p></p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="feature-box">
+      <h2>Event details</h2>
+      <ul>
+        <li>Workshops: {{ site.conference.dates.workshops | date: "%B %e, %Y"}}</li>
+        <li>Conference: {{ site.conference.dates.conference | date: "%B %e, %Y" }}</li>
+      </ul>
+      <p></p>
+      </div>
+    </div>
+  </div>
+  {% if site.conference.venue.maps_uri %}
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="feature-box">
+      <h2>Venue</h2>
+      <ul>
+	<li><iframe src="{{ site.conference.venue.maps_uri }}" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></li>
+      </ul>
+      <p></p>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</div>
+</section>
+
+{::nomarkdown}
+<!-- Wrapper Start -->
+<section id="intro">
+  <div class="container">
+    <div class="row block">
+{:/}

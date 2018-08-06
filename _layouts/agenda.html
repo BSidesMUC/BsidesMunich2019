@@ -1,0 +1,160 @@
+---
+layout: default
+---
+ 
+<!-- Wrapper Start -->
+<section id="agenda">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+ 
+{{ content }}
+
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="section-title agenda-title">
+            <h2>Workshops</h2>
+            <p class="lead">2018-04-08</p>
+          </div>
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div>
+
+    <div class="row">
+       
+{% for track in (1..3) %}
+      <div class="p-4 col-lg-4 col-md-4">
+        <div class="card">
+          <div class="card-block text-center card-primary p-2">
+            <h2>Track {{ track }}</h2>
+          </div>
+          <ul class="list-group list-group-flush">
+
+{% assign sorted = site.workshops | where: "track",track | where: "accepted",true | sort: 'timeslot.start' %}
+{% for talk in sorted %}
+{% assign start = talk.timeslot.start | date: '%H:%M' %}
+{% assign end = talk.timeslot.end | date: '%H:%M' %}
+
+
+    <li class="list-group-item">
+    {% if talk.details %}
+      <a href="{{ talk.url | relative_url }}">
+        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
+        <b>{{ talk.title }}</b><br>
+        {% for speaker in talk.speakers %}
+        <i>{{ speaker.name }}</i>
+        {% endfor %}
+      </a>
+    {% else %}
+      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
+      <b>{{ talk.title }}</b><br>
+        {% for speaker in talk.speakers %}
+        <i>{{ speaker.name }}</i>
+        {% endfor %}
+    {% endif %}
+  </li>
+{% endfor %}  
+ 
+          </ul>
+        </div>
+      </div> 
+{% endfor %}  
+
+    
+    <div class="row">
+      <div class="col-md-12">
+         &nbsp;
+      </div><!-- .col-md-12 close -->
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <div class="section-title agenda-title">
+            <h2>Talks</h2>
+            <p class="lead">2018-04-09</p>
+          </div>
+        </div>
+      </div><!-- .col-md-12 close -->
+    </div>
+
+    <div class="row">
+      <div class="p-2 col-lg-2"></div>
+
+{% for track in (1..2) %}      
+      <div class="p-4 col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-block text-center card-primary p-2">
+          {% if track == 1 %}
+            <h2>Main Track </h2>
+          {% else if track == 2 %}
+            <h2>Rookie Track </h2>
+          {% else %}
+            <h2>Track {{ track }}</h2>
+          {% endif %}
+          </div>
+            <ul class="list-group list-group-flush">
+
+{% assign sorted = site.talks | where: "track",track | where: "accepted",true | sort: 'timeslot.start' %}
+{% for talk in sorted %}
+{% assign start = talk.timeslot.start | date: '%H:%M' %}
+{% assign end = talk.timeslot.end | date: '%H:%M' %}
+{% if talk.title != "" %}
+ 
+  {% if talk.keynote %}
+    <li class="list-group-item keynote-talk">
+  {% else %}
+    <li class="list-group-item">
+  {% endif %}
+    {% if talk.details %}
+      <a href="{{ talk.url | relative_url }}">
+        <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
+        <b>{{ talk.title }}</b>
+        <br>
+        {% for speaker in talk.speakers %}
+        <i>{{ speaker.name }}</i>
+        {% endfor %}
+      </a>
+      - 
+      {% if talk.recording_uri == null %}
+        <i>&nbsp;</i>
+      {% elsif talk.recording_uri contains "/dev/null" %}
+        <i>not recorded</i>
+      {% elsif talk.recording_uri != "" %}
+        <i><a href="{{ talk.recording_uri }}">[recording]</a></i>
+      {% endif %}
+      - 
+      {% if talk.slides_uri == null %} 
+        <i>&nbsp;</i>
+      {% elsif talk.slides_uri contains "/dev/null" %}
+        <i>no slides</i>
+      {% elsif talk.slides_uri != "" %}
+        <i><a href="{{ talk.slides_uri }}">[slides]</a></i>
+      {% endif %}
+      
+    {% else %}
+      <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
+      <b>{{ talk.title }}</b><br>
+        {% for speaker in talk.speakers %}
+        <i>{{ speaker.name }}</i>
+        {% endfor %}
+    {% endif %}
+  </li>
+{% endif %}
+{% endfor %}  
+          </ul>
+        </div>
+      </div>
+{% endfor %}  
+      
+      <div class="p-2 col-lg-2"></div>
+    </div>
+ 
+  </div>
+</section>

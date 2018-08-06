@@ -1,0 +1,31 @@
+{::nomarkdown}
+    </div>
+  </div>
+</section>
+{:/}
+
+<!-- Call to action Start -->
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+    
+      {% if site.conference.links.contickets_uri %}
+      <div class="col-md-6">
+        <div class="block">
+          <h2>Conference Tickets</h2>
+          <p>{{ site.conference.links.contickets_state }}</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.contickets_uri }}">Open Form</a>
+        </div>
+      </div>
+      {% endif %}
+      
+      {% if site.conference.links.wstickets_uri %}
+      <div class="col-md-6">
+        <div class="block">
+          <h2>Workshop Tickets</h2>
+          <p>{{ site.conference.links.wstickets_state }}</p>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.wstickets_uri }}">Open Form</a>
+        </div>
+      </div>
+      {% endif %}
+
