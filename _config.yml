@@ -38,19 +38,26 @@ conference:
     #show the sponsors in the footer of every page
     footer: false
     # sponsor logos should all have the same format (at least width)
-    platinum:
-    - name: platinum_sponsors
-      logo: /img/sponsors/platinum.png
-    gold:
-    - name: gold_sponsors
-      logo: /img/sponsors/gold.png
-    silver:
-    - name: silver_sponsors
-      logo: /img/sponsors/silver.png
-    bronze:
-    - name: bronze_sponsors
-      logo: /img/sponsors/bronze.png
+# uncomment it to fill sponsors in
+#    platinum:
+#    - name: platinum_sponsors
+#      logo: /img/sponsors/platinum.png
+#    gold:
+#    - name: gold_sponsors
+#      logo: /img/sponsors/gold.png
+#    silver:
+#    - name: silver_sponsors
+#      logo: /img/sponsors/silver.png
+#    bronze:
+#    - name: bronze_sponsors
+#      logo: /img/sponsors/bronze.png
+#Example of a bronze sponsor:
+#    - name: Microsoft
+#      logo: /img/sponsors/microsoft.png
+#      uri: https://www.microsoft.com
   links:
+    sponsorpackage_en_uri: /files/BSidesMunich2019Sponsorship-English.pdf
+    sponsorpackage_de_uri: /files/BSidesMunich2019Sponsorship-Deutsch.pdf
     cfw_uri: https://goo.gl/forms/0Ltz0dmgptvnrhZ03
     cfp_uri: https://goo.gl/forms/Teo3Hya5IoioHr9e2
     registration_uri: https://bsidesmunich2018conference.eventbrite.de/

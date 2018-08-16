@@ -18,11 +18,10 @@ layout: default
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
         <div class="block">
-		{% if site.conference.links.sponsorpackage_uri %}
-          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.sponsorpackage_uri }}" target="_blank">Open Sponsorship Package</a>
-		{% else %}
-		  <h2><a href="{{ site.conference.email }}">contact us</a></h2>
-		{% endif %}
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.sponsorpackage_en_uri }}" target="_blank">
+			Become a Sponsor</a>
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.sponsorpackage_de_uri }}" target="_blank">
+			Sponsor werden</a>
         </div>
       </div>
     </div>
