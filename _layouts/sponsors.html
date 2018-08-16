@@ -30,7 +30,7 @@ layout: default
   </div>
 </section>
 
-{% if site.conference.sponsors.gold or site.conference.sponsors.silver or site.conference.sponsors.bronce %}
+{% if site.conference.sponsors.platinum or site.conference.sponsors.gold or site.conference.sponsors.silver or site.conference.sponsors.bronze %}
 
 <!-- Wrapper Start -->
 
@@ -38,11 +38,13 @@ layout: default
 <section id="sponsors">
   <div class="container sponsorlogos">
 
+{% include sponsor_class.html class=site.conference.sponsors.platinum %}
+
 {% include sponsor_class.html class=site.conference.sponsors.gold %}
 
 {% include sponsor_class.html class=site.conference.sponsors.silver %}
 
-{% include sponsor_class.html class=site.conference.sponsors.bronce %}
+{% include sponsor_class.html class=site.conference.sponsors.bronze %}
 
   </div>
 </section>

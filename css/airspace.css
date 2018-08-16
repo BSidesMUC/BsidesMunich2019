@@ -56,17 +56,6 @@ a:active {
   background-color: rgba(253,216,53,1);
 }
 
-/*#sponsor-gold {
-  background-color: rgba(253,216,53,1);
-}
-
-#sponsor-silver {
-  background-color: rgba(253,216,53,1);
-}
-#sponsor-bronze {
-  background-color: rgba(253,216,53,1);
-}/**/
-
 .sponsorlogos img {
   margin: 30px 20px;
   max-height: 100px;
@@ -448,7 +437,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #clients-logo-section .silver {
   background-color: silver;
 }
-#clients-logo-section .bronce {
+#clients-logo-section .bronze {
   background-color: #a52a2a63;
 }
 /*---------------------------------------------

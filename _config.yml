@@ -38,40 +38,18 @@ conference:
     #show the sponsors in the footer of every page
     footer: false
     # sponsor logos should all have the same format (at least width)
+    platinum:
+    - name: platinum_sponsors
+      logo: /img/sponsors/platinum.png
     gold:
     - name: gold_sponsors
       logo: /img/sponsors/gold.png
-    - name: Microsoft
-      logo: /img/sponsors/microsoft.png
-      uri: https://www.microsoft.com
-    - name: Siemens
-      logo: /img/sponsors/siemens.png
-      uri: https://www.siemens.com/entry/de/de/ingenuity-for-life/
     silver:
     - name: silver_sponsors
       logo: /img/sponsors/silver.png
-    - name: CYOSS
-      logo: /img/sponsors/CYOSS.png
-      uri: https://www.esg.de/division/cyoss/
-    - name: BMW
-      logo: /img/sponsors/BMW.png
-      uri: https://www.bmw.com
-    - name: NSIDE ATTACK Logic
-      logo: /img/sponsors/nsideattack.png
-      uri: https://www.nsideattacklogic.de/
-    - name: Huawei
-      logo: /img/sponsors/huawei.png
-      uri: http://www.huawei.com/
-
-    bronce:
+    bronze:
     - name: bronze_sponsors
       logo: /img/sponsors/bronze.png
-    - name: LastBreach
-      logo: /img/sponsors/lastbreach.png
-      uri: https://www.lastbreach.de
-    - name: Google
-      logo: /img/sponsors/google.png
-      uri: https://www.google.com
   links:
     cfw_uri: https://goo.gl/forms/0Ltz0dmgptvnrhZ03
     cfp_uri: https://goo.gl/forms/Teo3Hya5IoioHr9e2
@@ -126,6 +104,7 @@ exclude:
   - "Gemfile"
   - "Gemfile.lock"
   - "README.md"
+  - "Makefile"
   - "INSTALL.txt"
   - "LICENSE.md"
   - "*.gemspec"

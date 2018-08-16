@@ -1,7 +1,7 @@
 
 {% if site.conference.sponsors.footer %}
 
-{% if site.conference.sponsors.gold or site.conference.sponsors.silver or site.conference.sponsors.bronce %}
+{% if site.conference.sponsors.gold or site.conference.sponsors.silver or site.conference.sponsors.bronze %}
 <!-- Clients Logo Section Start -->
 <!-- //-->
 <section id="clients-logo-section">
@@ -10,6 +10,11 @@
       <div class="col-md-12">
         <div class="block">
           <div id="clients-logo" class="owl-carousel">
+{% for sponsor in site.conference.sponsors.platinum %}
+<div class="clients-logo-img platinum">
+  <img src="{{ sponsor.logo  | relative_url }}" alt="{{ sponsor.name }}">
+</div>
+{% endfor %}
 {% for sponsor in site.conference.sponsors.gold %}
 <div class="clients-logo-img gold">
   <img src="{{ sponsor.logo  | relative_url }}" alt="{{ sponsor.name }}">
