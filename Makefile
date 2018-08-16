@@ -1,3 +1,5 @@
+all: clean build
+
 clean:
 	jekyll clean
 build:
