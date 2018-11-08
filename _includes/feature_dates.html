@@ -9,10 +9,10 @@
   <div class="row">
     <div class="col-md-6">
       <div class="feature-box">
-      <h2>Deadlines</h2>
+      <h2>Important Dates</h2>
       <ul>
-        <li>Tickets: Registration opens {{ site.conference.dates.deadline_tickets | date: "%B %e, %Y"}}</li>
-        <li>CFP: Ends {{ site.conference.dates.deadline_cfp | date: "%B %e, %Y"}}</li>
+        <li>CfP Deadline: {{ site.conference.dates.deadline_cfp | date: "%B %e, %Y"}}</li>
+        <li>Tickets registration opens {{ site.conference.dates.deadline_tickets | date: "%B %e, %Y"}}</li>
       </ul>
       <p></p>
       </div>
@@ -21,8 +21,8 @@
       <div class="feature-box">
       <h2>Event details</h2>
       <ul>
-        <li>Workshops: {{ site.conference.dates.workshops | date: "%B %e, %Y"}}</li>
-        <li>Conference: {{ site.conference.dates.conference | date: "%B %e, %Y" }}</li>
+        <li>Workshop Day: {{ site.conference.dates.workshops | date: "%B %e, %Y"}}</li>
+        <li>Conference Day: {{ site.conference.dates.conference | date: "%B %e, %Y" }}</li>
       </ul>
       <p></p>
       </div>

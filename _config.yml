@@ -58,22 +58,20 @@ conference:
   links:
     sponsorpackage_en_uri: /files/BSidesMunich2019Sponsorship-English.pdf
     sponsorpackage_de_uri: /files/BSidesMunich2019Sponsorship-Deutsch.pdf
-    cfw_uri: nil
-    cfp_uri: nil
-    registration_uri: nil
-    sponsorpackage_uri: file:///etc/passwd
-    contickets_uri: nil
+    cfw_uri: https://goo.gl/forms/dcwtRzPZXw4SXtAo1
+    cfp_uri: https://goo.gl/forms/hWYIEpzBBmYaws3f1
+    contickets_uri: 
     contickets_state: Still not open
-    wstickets_uri: nil
+    wstickets_uri: 
     wstickets_state: Still not open
   dates: 
-    deadline_tickets: 2015-10-21
-    deadline_cfp: 2015-10-21
-    workshops: 2015-10-21
-    conference: 2015-10-21
+    deadline_tickets: 2019-12-18
+    deadline_cfp: 2019-01-18
+    workshops: 2019-03-24
+    conference: 2019-03-25
   venue:
-    address: nil
-    maps_uri: nil
+    address: Erika-Mann-Straße 33, 80636 München
+    maps_uri: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.30581431014!2d11.538758615649174!3d48.14290917922379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e758b6989ce1b%3A0xdd1b393a488b0ebf!2sGoogle!5e0!3m2!1sen!2sde!4v1541714147122
   archive:
     a2018:
       participants: 300
