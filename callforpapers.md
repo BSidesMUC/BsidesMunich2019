@@ -32,7 +32,11 @@ We will do our best to provide mentors for all speakers who want additional feed
 ## Rookie Speakers
 If you are interested in speaking at an infosec conference about a topic that is dear to you, but you are new or shy, here is your chance! Just add a short "rookie" note in your CFP submission, and we will gladly help you along the way.
 
-The infosec community is full of smart people. But, public speaking does not come easy for all of us.  So, we are here to encourage and support those who have doubts or a hard time deciding whether or not to go for it. BSidesMunich 2018 will have two different stages: a main stage and a rookie stage.  On the rookie stage you will have a smaller, supportive audience! If you have something you want to talk about, submit it; even if you are not sure it will be a good enough fit for the conference.
+The infosec community is full of smart people.
+But, public speaking does not come easy for all of us.  So, we are here to encourage and support those who have doubts or a hard time deciding whether or not to go for it.
+BSidesMunich 2019 will have two different stages: a main stage and a rookie stage
+On the rookie stage you will have a smaller, supportive audience!
+If you have something you want to talk about, submit it; even if you are not sure it will be a good enough fit for the conference.
 
 ## Submission
 The program committee will review your submission based on a descriptive abstract of your intended presentation. Feel free to link to preliminary version of your presentation if available, or any other supporting materials. Keep in mind: the better your description is, the better our review will be.
