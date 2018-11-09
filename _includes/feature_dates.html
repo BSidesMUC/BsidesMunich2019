@@ -5,43 +5,41 @@
 {:/}
 
 <section id="feature">
-<div class="container">
-  <div class="row">
-    <div class="col-md-6">
-      <div class="feature-box">
-      <h2>Important Dates</h2>
-      <ul>
-        <li>CfP Deadline: {{ site.conference.dates.deadline_cfp | date: "%B %e, %Y"}}</li>
-        <li>Tickets registration opens {{ site.conference.dates.deadline_tickets | date: "%B %e, %Y"}}</li>
-      </ul>
-      <p></p>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-5">
+                <div class="feature-box">
+                    <h2>Workshops</h2>
+                    <ul>
+                        <li>Call for Workshops - Deadline: {{ site.conference.dates.deadline_cfp | date: "%B %e, %Y"}}</li>
+                        <li>Workshop Day: {{ site.conference.dates.workshops | date: "%B %e, %Y"}}</li>
+                    </ul>
+                    <p></p>
+                {% if site.conference.venue.workshopsday.maps_uri %}
+                    <ul>
+                        <li><iframe src="{{ site.conference.venue.workshopsday.maps_uri }}" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></li>
+                    </ul>
+                {% endif %}
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="feature-box">
+                    <h2>Conference</h2>
+                    <ul>
+                        <li>Call for Papers - Deadline: {{ site.conference.dates.deadline_cfp | date: "%B %e, %Y"}}</li>
+                        <li>Conference Day: {{ site.conference.dates.conference | date: "%B %e, %Y" }}</li>
+                    </ul>
+                    <p></p>
+                {% if site.conference.venue.conferenceday.maps_uri %}
+                    <ul>
+                        <li><iframe src="{{ site.conference.venue.conferenceday.maps_uri }}" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></li>
+                    </ul>
+                {% endif %}
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="col-md-6">
-      <div class="feature-box">
-      <h2>Event details</h2>
-      <ul>
-        <li>Workshop Day: {{ site.conference.dates.workshops | date: "%B %e, %Y"}}</li>
-        <li>Conference Day: {{ site.conference.dates.conference | date: "%B %e, %Y" }}</li>
-      </ul>
-      <p></p>
-      </div>
-    </div>
-  </div>
-  {% if site.conference.venue.maps_uri %}
-  <div class="row">
-    <div class="col-xs-12">
-      <div class="feature-box">
-      <h2>Venue</h2>
-      <ul>
-	<li><iframe src="{{ site.conference.venue.maps_uri }}" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></li>
-      </ul>
-      <p></p>
-      </div>
-    </div>
-  </div>
-  {% endif %}
-</div>
 </section>
 
 {::nomarkdown}

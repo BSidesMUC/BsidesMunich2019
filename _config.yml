@@ -70,8 +70,12 @@ conference:
     workshops: 2019-03-24
     conference: 2019-03-25
   venue:
-    address: Erika-Mann-Straße 33, 80636 München
-    maps_uri: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.30581431014!2d11.538758615649174!3d48.14290917922379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e758b6989ce1b%3A0xdd1b393a488b0ebf!2sGoogle!5e0!3m2!1sen!2sde!4v1541714147122
+    workshopsday:
+      address: Ridlerstraße 65, 80339 München
+      maps_uri: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10650.796794141792!2d11.5295549!3d48.135324!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9111783afa37f66e!2zVMOcViBTw5xEIFNlYy1JVCBHbWJI!5e0!3m2!1sen!2sde!4v1541784641496
+    conferenceday:
+      address: Erika-Mann-Straße 33, 80636 München
+      maps_uri: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.30581431014!2d11.538758615649174!3d48.14290917922379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e758b6989ce1b%3A0xdd1b393a488b0ebf!2sGoogle!5e0!3m2!1sen!2sde!4v1541714147122
   archive:
     a2018:
       participants: 300
