@@ -67,12 +67,10 @@ Consent of the data subject is any freely given, specific, informed and unambigu
 
 Controller for the purposes of the General Data Protection Regulation (GDPR), other data protection laws applicable in Member states of the European Union and other provisions related to data protection is:
 
-BSides Munich<br>
-Mr. Frederic Mohr<br>
-Rohrauerstrasse 69<br>
-871477 Munich<br>
-Germany<br>
-Phone: 0176/81407530<br>
+{{ site.imprint.name }}<br>
+{% if site.imprint.addressco %}{{ site.imprint.addressco }}<br>{% endif %}
+{{ site.imprint.address }}<br>
+Germany<br>{% if site.imprint.phone %}{{ site.imprint.phone }}<br>{% endif %}
 Email: dataprivacy [at] bsidesmunich [dot] org<br>
 Website: www.bsidesmunich.org<br>
 

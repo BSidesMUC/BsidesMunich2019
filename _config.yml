@@ -25,15 +25,18 @@ collections:
 # ga_tracking_id: "UA-XXXX-1"
 
 imprint:
-  name: "BSides Munich, Mr. Frederic Mohr"
-  address: "Rohrauerstrasse 69, 81477 München"
+  #name: "BSides Munich, Mr. Frederic Mohr"
+  name: "Muc:Sec e.V."
+  addressco: "c/o Johnson"
+  address: "Curiestraße 3, 80999 München"
   email: "info [at] bsidesmunich [dot] org"
-  phone: "+49 17681407530"
+  #phone: "+49 17681407530"
 
 conference:
   # contact e-mail, e.g., for sponsors
   email: organizers@bsidesmunich.org
   twitter: https://twitter.com/bsidesmunich
+  newsletter: http://eepurl.com/dNWt2w
   sponsors:
     #show the sponsors in the footer of every page
     footer: false
