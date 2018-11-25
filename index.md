@@ -1,6 +1,6 @@
 ---
 layout: textpage
-title: BSidesMunich will be back in spring, 2019!
+title: BSidesMunich will be back in March, 2019!
 
 ideal_image_slider: true
 ---
