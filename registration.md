@@ -13,6 +13,8 @@ Also, sponsoring or volunteering is a great way to contribute to a superb BSides
 
 **Registration for the second batch of tickets will open on Jan 18, 2019 at 8:00 CET.**
 
+The waiting list will open with the second batch of tickets.
+
 {% include regconference_buttons.html %}
 
  

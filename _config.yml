@@ -63,8 +63,8 @@ conference:
     sponsorpackage_de_uri: /files/BSidesMunich2019Sponsorship-Deutsch.pdf
     cfw_uri: https://goo.gl/forms/dcwtRzPZXw4SXtAo1
     cfp_uri: https://goo.gl/forms/hWYIEpzBBmYaws3f1
-    contickets_uri: 
-    contickets_state: Still not open
+    contickets_uri: https://bsidesmunich.eventbrite.de/
+    contickets_state: 
     wstickets_uri: 
     wstickets_state: Still not open
   dates: 

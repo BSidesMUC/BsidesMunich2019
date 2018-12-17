@@ -11,21 +11,33 @@
     <div class="row">
   
       {% if site.conference.links.contickets_uri %}
-      <div class="col-md-6">
+      {% if site.conference.links.contickets_uri and site.conference.links.wstickets_uri %}
+        <div class="col-md-6">
+      {% else %}
+        <div class="col-md-12">
+      {% endif %}
         <div class="block">
           <h2>Conference Tickets</h2>
-          <p>{{ site.conference.links.contickets_state }}</p>
-          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.contickets_uri }}">Open Form</a>
+          {% if site.conference.links.contickets_state %}
+            <p>{{ site.conference.links.contickets_state }}</p>
+          {% endif %}
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.contickets_uri }}">Open Eventbrite</a>
         </div>
       </div>
       {% endif %}
 
       {% if site.conference.links.wstickets_uri %}
-      <div class="col-md-6">
+      {% if site.conference.links.contickets_uri and site.conference.links.wstickets_uri %}
+        <div class="col-md-6">
+      {% else %}
+        <div class="col-md-12">
+      {% endif %}
         <div class="block">
           <h2>Workshop Tickets</h2>
-          <p>{{ site.conference.links.wstickets_state }}</p>
-          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.wstickets_uri }}">Open Form</a>
+          {% if site.conference.links.wstickets_state %}
+            <p>{{ site.conference.links.wstickets_state }}</p>
+          {% endif %}
+          <a class="btn btn-default btn-call-to-action" href="{{ site.conference.links.wstickets_uri }}">Open Eventbrite</a>
         </div>
       </div>
       {% endif %}
