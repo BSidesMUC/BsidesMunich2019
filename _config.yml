@@ -30,7 +30,7 @@ imprint:
   addressco: "c/o Johnson"
   address: "Curiestraße 3, 80999 München"
   email: "info [at] bsidesmunich [dot] org"
-  #phone: "+49 17681407530"
+  #phone: "+49 89
 
 conference:
   # contact e-mail, e.g., for sponsors
@@ -45,15 +45,23 @@ conference:
 #    platinum:
 #    - name: platinum_sponsors
 #      logo: /img/sponsors/platinum.png
-#    gold:
-#    - name: gold_sponsors
-#      logo: /img/sponsors/gold.png
-#    silver:
-#    - name: silver_sponsors
-#      logo: /img/sponsors/silver.png
-#    bronze:
-#    - name: bronze_sponsors
-#      logo: /img/sponsors/bronze.png
+    gold:
+    - name: Google
+      logo: /img/sponsors/google.png
+      uri: https://www.google.com
+      
+    silver:
+    - name: Context Information Systems
+      logo: /img/sponsors/Context_Information_Security.png
+      uri: https://www.contextis.com/de/
+    - name: CYOSS
+      logo: /img/sponsors/CYOSS.png
+      uri: https://www.esg.de/division/cyoss/
+      
+    bronze:
+    - name: Kemetmüller
+      logo: /img/sponsors/xn--kemetmller-feb.png
+      uri: https://www.xn--kemetmller-feb.com
 #Example of a bronze sponsor:
 #    - name: Microsoft
 #      logo: /img/sponsors/microsoft.png
@@ -64,7 +72,7 @@ conference:
     cfw_uri: https://goo.gl/forms/dcwtRzPZXw4SXtAo1
     cfp_uri: https://goo.gl/forms/hWYIEpzBBmYaws3f1
     contickets_uri: https://bsidesmunich.eventbrite.de/
-    contickets_state: 
+    contickets_state: Waiting list is open
     wstickets_uri: 
     wstickets_state: Still not open
   dates: 

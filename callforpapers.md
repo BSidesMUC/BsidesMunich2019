@@ -39,12 +39,15 @@ On the rookie stage you will have a smaller, supportive audience!
 If you have something you want to talk about, submit it; even if you are not sure it will be a good enough fit for the conference.
 
 ## Submission
-The program committee will review your submission based on a descriptive abstract of your intended presentation. Feel free to link to preliminary version of your presentation if available, or any other supporting materials. Keep in mind: the better your description is, the better our review will be.
+The program committee will review your submission based on a descriptive abstract of your intended presentation. 
+Feel free to link to preliminary version of your presentation if available, or any other supporting materials. 
+Keep in mind: the better your description is, the better our review will be.
 
 ## Program committee
 Your submission is subject to approval by the program committee of BSides Munich.
 
 ## Terms
-All presentation slides will be published on the conference website after the conference. Please make sure that any pictures and other materials in your slides don’t violate any copyrights. You are solely liable for copyright violations. You may choose any CC license for your slides, including CC0.
+All presentation slides will be published on the conference website after the conference. Please make sure that any pictures and other materials in your slides don’t violate any copyrights.
+You are solely liable for copyright violations. You may choose any CC license for your slides, including CC0.
 Unfortunately we can’t cover travel expenses or costs for accommodations.
 
