@@ -39,12 +39,13 @@ conference:
   newsletter: http://eepurl.com/dNWt2w
   sponsors:
     #show the sponsors in the footer of every page
-    footer: false
+    footer: false #BETA
     # sponsor logos should all have the same format (at least width)
 # uncomment it to fill sponsors in
 #    platinum:
 #    - name: platinum_sponsors
 #      logo: /img/sponsors/platinum.png
+#      uri: https://www.google.com
     gold:
     - name: Google
       logo: /img/sponsors/google.png
@@ -62,10 +63,9 @@ conference:
     - name: Kemetmüller
       logo: /img/sponsors/xn--kemetmller-feb.png
       uri: https://www.xn--kemetmller-feb.com
-#Example of a bronze sponsor:
-#    - name: Microsoft
-#      logo: /img/sponsors/microsoft.png
-#      uri: https://www.microsoft.com
+    - name: MOGWAI LABS
+      logo: /img/sponsors/mogwailabs_logo-white.svg.png
+      uri: https://mogwailabs.com
   links:
     sponsorpackage_en_uri: /files/BSidesMunich2019Sponsorship-English.pdf
     sponsorpackage_de_uri: /files/BSidesMunich2019Sponsorship-Deutsch.pdf
