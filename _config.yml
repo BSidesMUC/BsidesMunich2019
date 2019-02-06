@@ -58,6 +58,9 @@ conference:
     - name: CYOSS
       logo: /img/sponsors/CYOSS.png
       uri: https://www.esg.de/division/cyoss/
+    - name: NSIDE ATTACK LOGIC GmbH
+      logo: /img/sponsors/NSIDE.png
+      uri: https://www.nsideattacklogic.de/
       
     bronze:
     - name: Kemetmüller
@@ -66,6 +69,7 @@ conference:
     - name: MOGWAI LABS
       logo: /img/sponsors/mogwailabs_logo-white.svg.png
       uri: https://mogwailabs.de
+
   links:
     sponsorpackage_en_uri: /files/BSidesMunich2019Sponsorship-English.pdf
     sponsorpackage_de_uri: /files/BSidesMunich2019Sponsorship-Deutsch.pdf
