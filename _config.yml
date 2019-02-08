@@ -39,6 +39,7 @@ conference:
   newsletter: http://eepurl.com/dNWt2w
   sponsors:
     #show the sponsors in the footer of every page
+    lookingfor: false #BETA
     footer: false #BETA
     # sponsor logos should all have the same format (at least width)
 # uncomment it to fill sponsors in
@@ -52,6 +53,9 @@ conference:
       uri: https://www.google.com
       
     silver:
+    - name: AUDI AG
+      logo: /img/sponsors/AUDI.png
+      uri: https://www.audi.com/
     - name: Context Information Systems
       logo: /img/sponsors/Context_Information_Security.png
       uri: https://www.contextis.com/de/
@@ -63,6 +67,9 @@ conference:
       uri: https://www.nsideattacklogic.de/
       
     bronze:
+    - name: Eurofins Cyber Security Germany
+      logo: /img/sponsors/EurofinsCyberSecurity.jpg
+      uri: "#"
     - name: Kemetmüller
       logo: /img/sponsors/xn--kemetmller-feb.png
       uri: https://www.xn--kemetmller-feb.com
