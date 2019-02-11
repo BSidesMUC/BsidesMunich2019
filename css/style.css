@@ -56,8 +56,8 @@
 }
 
 .speaker-image img {
-  width: 100px;
-/*  padding: 0; */
+  width: 150px;
+  margin-top: 15px;
 }
 .speaker-image {
   width: auto;

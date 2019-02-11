@@ -84,8 +84,6 @@ conference:
     cfp_uri: https://goo.gl/forms/hWYIEpzBBmYaws3f1
     contickets_uri: https://bsidesmunich.eventbrite.de/
     contickets_state: Waiting list is open
-    wstickets_uri: 
-    wstickets_state: Still not open
   dates: 
     deadline_tickets: 2019-12-18
     deadline_cfp: 2019-01-18
@@ -93,8 +91,8 @@ conference:
     conference: 2019-03-25
   venue:
     workshopsday:
-      address: Ridlerstraße 65, 80339 München
-      maps_uri: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10650.796794141792!2d11.5295549!3d48.135324!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9111783afa37f66e!2zVMOcViBTw5xEIFNlYy1JVCBHbWJI!5e0!3m2!1sen!2sde!4v1541784641496
+      address: "Ridlerstraße 57, 80339 München"
+      maps_uri: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1331.3731707839243!2d11.530505623861135!3d48.13441493430886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479dd8a6ea582c0f%3A0x7b834e5628f56c17!2sRidlerstra%C3%9Fe+57%2C+80339+M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1549919154591
     conferenceday:
       address: Erika-Mann-Straße 33, 80636 München
       maps_uri: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.30581431014!2d11.538758615649174!3d48.14290917922379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e758b6989ce1b%3A0xdd1b393a488b0ebf!2sGoogle!5e0!3m2!1sen!2sde!4v1541714147122

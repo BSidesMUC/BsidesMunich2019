@@ -15,12 +15,15 @@
         </div>
       </div>
 
-      <div class="col-md-6 col-xs-10 col-xs-offset-1">
+      <div class="col-md-6 col-xs-10">
         <div class="block">
-          <h2>{{ speaker.name }}</h2>
-
+          <p>
+            <h2>{{ speaker.name }}</h2>
+{% if speaker.handle %}
+            <a href="https://twitter.com/{{speaker.handle}}">@{{ speaker.handle }}</a>
+{% endif %}
+          </p>
 {{ speaker.bio | markdownify }}
-
         </div>
       </div>
     </div>

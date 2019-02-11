@@ -16,5 +16,3 @@ Also, sponsoring or volunteering is a great way to contribute to a superb BSides
 The waiting list will open with the second batch of tickets.
 
 {% include regconference_buttons.html %}
-
- 

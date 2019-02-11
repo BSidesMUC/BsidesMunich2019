@@ -20,7 +20,7 @@ layout: default
         <div class="block">
           <div class="section-title agenda-title">
             <h2>Workshops</h2>
-            <p class="lead">2018-04-08</p>
+            <p class="lead">2019-03-24</p>
           </div>
         </div>
       </div><!-- .col-md-12 close -->
@@ -28,8 +28,8 @@ layout: default
 
     <div class="row">
        
-{% for track in (1..3) %}
-      <div class="p-4 col-lg-4 col-md-4">
+{% for track in (1..4) %}
+      <div class="p-3 col-lg-3 col-md-3">
         <div class="card">
           <div class="card-block text-center card-primary p-2">
             <h2>Track {{ track }}</h2>
@@ -41,22 +41,20 @@ layout: default
 {% assign start = talk.timeslot.start | date: '%H:%M' %}
 {% assign end = talk.timeslot.end | date: '%H:%M' %}
 
+{% assign speakers = talk.speakers | map: 'name' %}
+{% assign speakers_string = speakers | join: " & " %}
 
     <li class="list-group-item">
     {% if talk.details %}
       <a href="{{ talk.url | relative_url }}">
         <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
         <b>{{ talk.title }}</b><br>
-        {% for speaker in talk.speakers %}
-        <i>{{ speaker.name }}</i>
-        {% endfor %}
+        <i>{{ speakers_string }}</i>
       </a>
     {% else %}
       <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
       <b>{{ talk.title }}</b><br>
-        {% for speaker in talk.speakers %}
-        <i>{{ speaker.name }}</i>
-        {% endfor %}
+      <i>{{ speakers_string }}</i>
     {% endif %}
   </li>
 {% endfor %}  
@@ -73,12 +71,15 @@ layout: default
       </div><!-- .col-md-12 close -->
     </div>
     
+    
+    
+{% if site.talks.size > 0 %}
     <div class="row">
       <div class="col-md-12">
         <div class="block">
           <div class="section-title agenda-title">
             <h2>Talks</h2>
-            <p class="lead">2018-04-09</p>
+            <p class="lead">2019-03-25</p>
           </div>
         </div>
       </div><!-- .col-md-12 close -->
@@ -86,15 +87,15 @@ layout: default
 
     <div class="row">
       <div class="p-2 col-lg-2"></div>
-
+      
 {% for track in (1..2) %}      
       <div class="p-4 col-lg-4 col-md-6">
         <div class="card">
           <div class="card-block text-center card-primary p-2">
           {% if track == 1 %}
-            <h2>Main Track </h2>
+            <h2>10X Track</h2>
           {% else if track == 2 %}
-            <h2>Rookie Track </h2>
+            <h2>Moonshot Track </h2>
           {% else %}
             <h2>Track {{ track }}</h2>
           {% endif %}
@@ -106,7 +107,10 @@ layout: default
 {% assign start = talk.timeslot.start | date: '%H:%M' %}
 {% assign end = talk.timeslot.end | date: '%H:%M' %}
 {% if talk.title != "" %}
- 
+
+{% assign speakers = talk.speakers | map: 'name' %}
+{% assign speakers_string = speakers | join: " & " %}
+
   {% if talk.keynote %}
     <li class="list-group-item keynote-talk">
   {% else %}
@@ -117,9 +121,7 @@ layout: default
         <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
         <b>{{ talk.title }}</b>
         <br>
-        {% for speaker in talk.speakers %}
-        <i>{{ speaker.name }}</i>
-        {% endfor %}
+        <i>{{ speakers_string }}</i>
       </a>
       - 
       {% if talk.recording_uri == null %}
@@ -141,9 +143,7 @@ layout: default
     {% else %}
       <i class="mx-auto fa d-inline fa-clock-o text-secondary"></i>&nbsp;{{ start }} - {{ end }}<br>
       <b>{{ talk.title }}</b><br>
-        {% for speaker in talk.speakers %}
-        <i>{{ speaker.name }}</i>
-        {% endfor %}
+      <i>{{ speakers_string }}</i>
     {% endif %}
   </li>
 {% endif %}
@@ -155,6 +155,7 @@ layout: default
       
       <div class="p-2 col-lg-2"></div>
     </div>
+{% endif %}
  
   </div>
 </section>

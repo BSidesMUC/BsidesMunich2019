@@ -11,11 +11,11 @@
     <div class="row">
   
       {% if site.conference.links.contickets_uri %}
-      {% if site.conference.links.contickets_uri and site.conference.links.wstickets_uri %}
-        <div class="col-md-6">
-      {% else %}
-        <div class="col-md-12">
-      {% endif %}
+        {% if site.conference.links.contickets_uri and site.conference.links.wstickets_uri %}
+          <div class="col-md-6">
+        {% else %}
+          <div class="col-md-12">
+        {% endif %}
         <div class="block">
           <h2>Conference Tickets</h2>
           {% if site.conference.links.contickets_state %}
@@ -27,11 +27,11 @@
       {% endif %}
 
       {% if site.conference.links.wstickets_uri %}
-      {% if site.conference.links.contickets_uri and site.conference.links.wstickets_uri %}
-        <div class="col-md-6">
-      {% else %}
-        <div class="col-md-12">
-      {% endif %}
+        {% if site.conference.links.contickets_uri and site.conference.links.wstickets_uri %}
+          <div class="col-md-6">
+        {% else %}
+          <div class="col-md-12">
+        {% endif %}
         <div class="block">
           <h2>Workshop Tickets</h2>
           {% if site.conference.links.wstickets_state %}
