@@ -12,10 +12,10 @@ links:
   wstickets_uri: https://www.eventbrite.com/e/bsides-munich-2019-workshop-hardware-hacking-101-tickets-56283803371
 speakers:
   - name: Johannes
-    handle: RabbitPro
+    handle: ickyphuz
     bio:  "After Studying computer science, Johannes worked several years in different software development engagements and continued with academic research on biometric systems. In 2018, Johannes joined an automotive pentesting team based in Munich. He is also a frequent CTF player."
   - name: Radek
-    handle: ickyphuz
+    handle: RabbitPro
     bio: "Computers and security was always a hobby for Radek and for many years also a professional career. Throughout the career Radek started on securing large networks and systems and transitioned afterwards into offensive security. At the moment Radek is working on a hardware and automotive hacking, exploitation and reverse engineering."
 ---
 
