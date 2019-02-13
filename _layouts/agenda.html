@@ -21,6 +21,7 @@ layout: default
           <div class="section-title agenda-title">
             <h2>Workshops</h2>
             <p class="lead">2019-03-24</p>
+            <p>{{ site.conference.venue.workshopsday.address }}</p>
           </div>
         </div>
       </div><!-- .col-md-12 close -->
@@ -80,6 +81,7 @@ layout: default
           <div class="section-title agenda-title">
             <h2>Talks</h2>
             <p class="lead">2019-03-25</p>
+            <p>{{ site.conference.venue.conferenceday.address }}</p>
           </div>
         </div>
       </div><!-- .col-md-12 close -->
@@ -123,21 +125,21 @@ layout: default
         <br>
         <i>{{ speakers_string }}</i>
       </a>
-      - 
+      
       {% if talk.recording_uri == null %}
-        <i>&nbsp;</i>
+        <!--<i>&nbsp;</i>//-->
       {% elsif talk.recording_uri contains "/dev/null" %}
-        <i>not recorded</i>
+       - <i>not recorded</i>
       {% elsif talk.recording_uri != "" %}
-        <i><a href="{{ talk.recording_uri }}">[recording]</a></i>
+       - <i><a href="{{ talk.recording_uri }}">[recording]</a></i>
       {% endif %}
-      - 
-      {% if talk.slides_uri == null %} 
-        <i>&nbsp;</i>
+      
+      {% if talk.slides_uri == null %}
+        <!--<i>&nbsp;</i>//-->
       {% elsif talk.slides_uri contains "/dev/null" %}
-        <i>no slides</i>
+       - <i>no slides</i>
       {% elsif talk.slides_uri != "" %}
-        <i><a href="{{ talk.slides_uri }}">[slides]</a></i>
+       - <i><a href="{{ talk.slides_uri }}">[slides]</a></i>
       {% endif %}
       
     {% else %}

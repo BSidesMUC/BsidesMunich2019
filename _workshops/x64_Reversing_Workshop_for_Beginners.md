@@ -6,8 +6,8 @@ track: 3
 accepted: true
 length: 4
 timeslot:
- start: 2019-03-24 18:00
- end: 2019-03-24 14:00
+ start: 2019-03-24 14:00
+ end: 2019-03-24 18:00
 links:
   wstickets_uri: https://www.eventbrite.com/e/bsides-munich-2019-workshop-x86x64-reversing-workshop-for-beginners-tickets-56283776290
 speakers:
