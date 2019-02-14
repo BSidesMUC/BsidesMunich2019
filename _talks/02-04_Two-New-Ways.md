@@ -40,12 +40,3 @@ Here is the flow of my talk with approximate time spent in each part:
 * talk about Bypass 2, including a demo (7 min)
 * conclusion and takeaways (2 min)
 * question and answer (remaining time)
-
-#### The takeaways are:
-1. Reading disclosed vulnerability reports and the patches is really helpful for finding new ones
-2. Try to find corner cases that developers may neglect to handle (e.g. explicit port in URL)
-3. mainstream browser vendors are generally not interested in fixing fingerprint issues
-4. Don't expect vendors to fix a vulnerability, if its severity is low and fixing it is hard or has large impact on usability.
-
-#### References
-[1] https://fetch.spec.whatwg.org/#concept-request-redirect-mode

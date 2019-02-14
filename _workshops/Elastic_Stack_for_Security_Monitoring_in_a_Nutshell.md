@@ -13,10 +13,12 @@ links:
 speakers:
   - name: Eva Szilagyi
     handle: EvaSzilagyiSec
+    photo: /img/speakers/Eva_Szilagyi.png
     bio:  "Eva Szilagyi is managing partner and CEO of Alzette Information Security, a consulting company based in Luxembourg.  She has more than eight years of professional experience in penetration testing, security source code review, vulnerability management, digital forensics, IT auditing, telecommunication networks, and security research.<br>Eva has master's degrees in electrical engineering and in networks and telecommunication.  She holds several IT security certifications such as GSEC, GICSP, GMON, GSSP-JAVA, GWAPT, GMOB, CCSK, eWPT, and eJPT.  Eva speaks on a regular basis at international conferences like BruCON, Hack.lu, Nuit du Hack, Hacktivity, Black Alps, BSides Munich, BSidesBUD, Pass the SALT, Security Session and she is a member of the organizer team of BSides Luxembourg."
 
   - name: David Szili
     handle: DavidSzili
+    photo: /img/speakers/David_Szili.png
     bio:  "David Szili is managing partner and CTO of Alzette Information Security, a consulting company based in Luxembourg.  David is also an instructor at SANS Institute, teaching FOR572: Advanced Network Forensics.  He has more than eight years of professional experience in penetration testing, red teaming, vulnerability assessment, vulnerability management, security monitoring, security architecture design, incident response, digital forensics and software development.<br>David has master's degrees in computer engineering and in networks and telecommunication and a bachelor's degree in electrical engineering.  He holds several IT security certifications such as GSEC, GCED, GCIA, GCIH, GMON, GCDA, GNFA, GPYC, GMOB, CCSK, OSCP, OSWP, and CEH.  David speaks on a regular basis at international conferences like BruCON, Hack.lu, Nuit du Hack, Hacktivity, x33fcon, Black Alps, BSidesLjubljana, BSides Munich, BSidesBUD, Pass the SALT, Security Session and he is a member of the organizer team of BSides Luxembourg.  He occasionally blogs about information security at jumpespjump.blogspot.com."
 ---
 
