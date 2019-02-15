@@ -51,6 +51,9 @@ conference:
     - name: Google
       logo: /img/sponsors/google.png
       uri: https://www.google.com
+    - name: TÜV SÜD AG
+      logo: /img/sponsors/tuvsud.jpg
+      uri: https://www.tuev-sued.de/sec-it
       
     silver:
     - name: AUDI AG
@@ -72,10 +75,13 @@ conference:
       uri: "#"
     - name: Kemetmüller
       logo: /img/sponsors/xn--kemetmller-feb.png
-      uri: https://www.xn--kemetmller-feb.com
+      uri: https://xn--kemetmller-feb.com
     - name: MOGWAI LABS
       logo: /img/sponsors/mogwailabs_logo-white.svg.png
       uri: https://mogwailabs.de
+    - name: SIEMENS
+      logo: /img/sponsors/siemens.png
+      uri: https://new.siemens.com/global/en/products/services/cert.html
 
   links:
     sponsorpackage_en_uri: /files/BSidesMunich2019Sponsorship-English.pdf
