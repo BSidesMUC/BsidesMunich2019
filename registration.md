@@ -20,6 +20,6 @@ The waiting list will open with the second batch of tickets.
 Please take a look at the agenda for the scheduled workshops.
 Each workshop has a separate registration link on eventbrite.
 
-**Registration for the workshop tickets will open on Feb 18, 2019 at 20:00 CET.**
+**Registration for the workshop tickets will open on Feb 19, 2019 at 20:00 CET.**
 
 {% include regconference_buttons.html %}
