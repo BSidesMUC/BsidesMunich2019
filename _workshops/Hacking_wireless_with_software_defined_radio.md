@@ -6,13 +6,14 @@ track: 1
 accepted: true
 length: 8
 timeslot:
- start: 2019-03-24 09:00
+ start: 2019-03-24 10:00
  end: 2019-03-24 18:00
 links:
   wstickets_uri: https://www.eventbrite.com/e/bsides-munich-2019-workshop-hacking-wireless-w-software-defined-radio-tickets-56283618819
 speakers:
   - name: Pablo Endres
     handle: epablosensei
+    photo: /img/speakers/img-pablo-bw-300x296.jpg
     bio:  "Pablo Endres, Founder of SevenShift GmbH. Experienced security consultant, professional hacker and trainer. Published Author.<br>Pablo’s career has taken place mostly doing security in a variety of industries, like Cloud Service providers, Banks, Telecommunications, contact centers, and universities. He holds a degree in computer engineering, as well as a handful security certifications: ISC2 CISSP, CompTIA Security+, and ISECOM’s OPSA + OPST.<br>Pablo has founded multiple companies in different continents and enjoys hacking, IoT, teaching, working with new technologies, startups, collaborating with Open Source projects, learning new things and being challenged.<br>In the last couple of years, he has been working mainly IoT security, testing dozens of devices, working with multiple platform providers to secure their solutions, and teaching an IoT Security Bootcamps."
 ---
 
