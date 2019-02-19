@@ -43,10 +43,11 @@ conference:
     footer: false #BETA
     # sponsor logos should all have the same format (at least width)
 # uncomment it to fill sponsors in
-#    platinum:
-#    - name: platinum_sponsors
-#      logo: /img/sponsors/platinum.png
-#      uri: https://www.google.com
+    platinum:
+    - name: CISCO TALOS
+      logo: /img/sponsors/TalosBrand_RGB.png
+      uri: https://www.talosintelligence.com/
+      
     gold:
     - name: Google
       logo: /img/sponsors/google.png
@@ -70,9 +71,15 @@ conference:
       uri: https://www.nsideattacklogic.de/
       
     bronze:
+    - name: BMW
+      logo: /img/sponsors/BMW.png
+      uri: "#"
     - name: Eurofins Cyber Security Germany
       logo: /img/sponsors/EurofinsCyberSecurity.jpg
       uri: "#"
+    - name: Huawei
+      logo: /img/sponsors/huawei.png
+      uri: https://www.huawei.com/en/about-huawei/cyber-security
     - name: Kemetmüller
       logo: /img/sponsors/xn--kemetmller-feb.png
       uri: https://xn--kemetmller-feb.com

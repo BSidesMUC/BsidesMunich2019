@@ -61,6 +61,26 @@ a:active {
   max-height: 100px;
   max-width: 200px;
 }
+.sponsorlogos .sponsor-bronze img {
+  margin: 30px 20px;
+  max-height: 80px;
+  max-width: 175px;
+}
+@media only screen 
+  and (max-width: 767px)
+  and (min-height: 423px) {
+
+  .sponsorlogos img {
+    margin: 15px 30px;
+    max-height: 75px;
+    max-width: 200px;
+  }
+  .sponsorlogos .sponsor-bronze img {
+    margin: 15px 30px;
+    max-height: 75px;
+    max-width: 200px;
+  }
+}
 
 .section-title h2 {
   text-transform: uppercase;
