@@ -44,7 +44,7 @@ conference:
     # sponsor logos should all have the same format (at least width)
 # uncomment it to fill sponsors in
     platinum:
-    - name: CISCO TALOS
+    - name: Talos
       logo: /img/sponsors/TalosBrand_RGB.png
       uri: https://www.talosintelligence.com/
       
@@ -79,7 +79,7 @@ conference:
       uri: "#"
     - name: Huawei
       logo: /img/sponsors/huawei.png
-      uri: https://www.huawei.com/en/about-huawei/cyber-security
+      uri: https://www.huawei.com/en/
     - name: Kemetmüller
       logo: /img/sponsors/xn--kemetmller-feb.png
       uri: https://xn--kemetmller-feb.com
