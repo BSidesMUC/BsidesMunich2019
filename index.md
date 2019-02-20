@@ -18,4 +18,3 @@ Check back here for more information, [sign up for our newsletter]({{ site.confe
 {% include feature_dates.html %}
 
 {% include testimonial_2018.html %}
-

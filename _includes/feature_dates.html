@@ -12,8 +12,9 @@
                 <div class="feature-box">
                     <h2>Workshops</h2>
                     <ul>
-                        <li>Call for Workshops - Deadline: {{ site.conference.dates.deadline_cfp | date: "%B %e, %Y"}}</li>
+                        <!-- <li>Call for Workshops - Deadline: {{ site.conference.dates.deadline_cfp | date: "%B %e, %Y"}}</li> //-->
                         <li>Workshop Day: {{ site.conference.dates.workshops | date: "%B %e, %Y"}}</li>
+                        <li>Location: {{ site.conference.venue.workshopsday.address }}</li>
                     </ul>
                     <p></p>
                 {% if site.conference.venue.workshopsday.maps_uri %}
@@ -27,8 +28,9 @@
                 <div class="feature-box">
                     <h2>Conference</h2>
                     <ul>
-                        <li>Call for Papers - Deadline: {{ site.conference.dates.deadline_cfp | date: "%B %e, %Y"}}</li>
+                        <!--<li>Call for Papers - Deadline: {{ site.conference.dates.deadline_cfp | date: "%B %e, %Y"}}</li>//-->
                         <li>Conference Day: {{ site.conference.dates.conference | date: "%B %e, %Y" }}</li>
+                        <li>Location: {{ site.conference.venue.conferenceday.address }}</li>
                     </ul>
                     <p></p>
                 {% if site.conference.venue.conferenceday.maps_uri %}

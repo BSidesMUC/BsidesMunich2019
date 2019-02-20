@@ -59,13 +59,13 @@ conference:
     silver:
     - name: AUDI AG
       logo: /img/sponsors/AUDI.png
-      uri: https://www.audi.com/
+      uri: https://www.audi.com/de/career.html
     - name: Context Information Systems
       logo: /img/sponsors/Context_Information_Security.png
       uri: https://www.contextis.com/de/
     - name: CYOSS
       logo: /img/sponsors/CYOSS.png
-      uri: https://www.esg.de/division/cyoss/
+      uri: https://cyoss.com/
     - name: NSIDE ATTACK LOGIC GmbH
       logo: /img/sponsors/NSIDE.png
       uri: https://www.nsideattacklogic.de/
@@ -104,10 +104,11 @@ conference:
     conference: 2019-03-25
   venue:
     workshopsday:
-      address: "Ridlerstraße 57, 80339 München"
+      address: "TÜV SÜD, Gebäude Newton, Ridlerstraße 57, 80339 München"
+      details: "„Welcome“ by <a href=\"https://www.linkedin.com/in/stefan-v-29bb36160/\">Stefan Vollmer</a> Chief Technology Officer, TÜV SÜD Sec-IT GmbH"
       maps_uri: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1331.3731707839243!2d11.530505623861135!3d48.13441493430886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479dd8a6ea582c0f%3A0x7b834e5628f56c17!2sRidlerstra%C3%9Fe+57%2C+80339+M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1549919154591
     conferenceday:
-      address: Erika-Mann-Straße 33, 80636 München
+      address: "Google, Erika-Mann-Straße 33, 80636 München"
       maps_uri: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2662.30581431014!2d11.538758615649174!3d48.14290917922379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e758b6989ce1b%3A0xdd1b393a488b0ebf!2sGoogle!5e0!3m2!1sen!2sde!4v1541714147122
   archive:
     a2018:

@@ -23,6 +23,11 @@ layout: default
             <p class="lead">2019-03-24</p>
             <p>{{ site.conference.venue.workshopsday.address }}</p>
           </div>
+          {% if site.conference.venue.workshopsday.details %}
+          <div class="section-title agenda-title">
+            <p>{{ site.conference.venue.workshopsday.details }}</p>
+          </div>
+          {% endif %}
         </div>
       </div><!-- .col-md-12 close -->
     </div>
