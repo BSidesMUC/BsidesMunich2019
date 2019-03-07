@@ -1,7 +1,7 @@
 ---
 layout: talk
-title: Keynote
-details: false
+title: Better safe than sorry!..
+details: true
 track: 1
 accepted: true
 length: 30
@@ -17,4 +17,8 @@ recording_uri:
 slides_uri: 
 keynote: true
 ---
+
+Why we can’t win the InfoSec battle and what to do to survive will be part of this talk.
+The audience can expect the CISO view merged with deep insights out of the hacking community.
+This Keynote is set up to change people minds, instead of simply sharing information.
 
