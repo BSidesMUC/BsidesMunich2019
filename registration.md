@@ -22,4 +22,8 @@ Each workshop has a separate registration link on eventbrite.
 
 **Registration for the workshop tickets will open on Feb 19, 2019 at 20:00 CET.**
 
+## Questions
+
+For questions please get in contact with tickets (at) bsidesmunich (dot) org.
+
 {% include regconference_buttons.html %}

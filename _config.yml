@@ -2,7 +2,7 @@
 # Site settings
 title: BSides Munich 2019
 subtitle: "A free security conference in the heart of Bavaria"
-url: "http://www.bsidesmunich.org" # the base hostname & protocol for your site
+url: "https://www.bsidesmunich.org" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
 cover: "/assets/cover.png"
@@ -105,7 +105,7 @@ conference:
   venue:
     workshopsday:
       address: "TÜV SÜD, Gebäude Newton, Ridlerstraße 57, 80339 München"
-      details: "„Welcome“ by <a href=\"https://www.linkedin.com/in/stefan-v-29bb36160/\">Stefan Vollmer</a> Chief Technology Officer, TÜV SÜD Sec-IT GmbH"
+      details: "<a href=\"http://www.tuev-sued.de/bsidesmunich\">„Welcome“</a> by <a href=\"https://www.linkedin.com/in/stefan-v-29bb36160/\">Stefan Vollmer</a> Chief Technology Officer, TÜV SÜD Sec-IT GmbH"
       maps_uri: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1331.3731707839243!2d11.530505623861135!3d48.13441493430886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479dd8a6ea582c0f%3A0x7b834e5628f56c17!2sRidlerstra%C3%9Fe+57%2C+80339+M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1549919154591
     conferenceday:
       address: "Google, Erika-Mann-Straße 33, 80636 München"

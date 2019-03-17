@@ -1,13 +1,13 @@
 ---
 layout: workshop
-title: Hardware Hacking 101
+title: Hardware Hacking 101 - Group 1
 details: true
 track: 4
 accepted: true
-length: 8
+length: 4
 timeslot:
  start: 2019-03-24 09:00
- end: 2019-03-24 18:00
+ end: 2019-03-24 13:00
 links:
   wstickets_uri: https://www.eventbrite.com/e/bsides-munich-2019-workshop-hardware-hacking-101-tickets-56283803371
 speakers:

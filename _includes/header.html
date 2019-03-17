@@ -17,15 +17,7 @@
           </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl | relative_url }}/">Home</a></li>
-                <li><a href="{{ site.baseurl | relative_url }}/agenda">Agenda</a></li>
-                <li><a href="{{ site.baseurl | relative_url }}/registration">Registration</a></li>
-                <li><a href="{{ site.baseurl | relative_url }}/sponsors">Sponsors</a></li>
-                <li><a href="{{ site.baseurl | relative_url }}/codeofconduct">Code of Conduct</a></li>
-                <li><a href="{{ site.baseurl | relative_url }}/callforpapers">CfP & CfW</a></li>
-                <li><a href="{{ site.baseurl | relative_url }}/team/">Team</a></li>
-              </ul>
+              {% include navigation.html %}
             </div><!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>

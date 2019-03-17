@@ -1,0 +1,17 @@
+- title: Home
+  url: /
+- title: Agenda
+  url: /agenda
+- title: CTF
+  url: https://mucsec.ctfd.io/
+- title: Registration
+  url: /registration
+- title: Sponsors
+  url: /sponsors
+- title: Code of Conduct
+  url: /codeofconduct
+- title: CfP & CfW
+  url: /callforpapers
+- title: Team
+  url: /team
+
