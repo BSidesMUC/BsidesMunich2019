@@ -22,29 +22,29 @@ Immersed in diverse music and with a well-filled stash of cookies always at his 
 While he descended from the blue range of his far Austrian mountains to work in Munich as a penetration tester, he still never quite got away from them: hiking and skiing are some favorite pastimes.
 Lately, he’s been learning Chinese: certainly, there is a way to decode that language also!
 
-### Claudia
-{% include orgainfo.html twitter="@cjmunich" %}
-With multiple degrees in Atmospheric Sciences, you might call Claudia a true Cloud Specialist!   These days her true passion is crusading for "Security, is it in your DNS?".
- Otherwise Claudia enjoys lazy Sunday afternoons with the family, travelling to the last exit before the Antarctic, riding her push bike around the Munich countryside or reminiscing about the delightful rhodies in her hometown of Seattle.
-
 ### Dagmar
 {% include orgainfo.html twitter="@wisecrackling" %}
 Coming from a non-technical background, Dagmar brings her knowledge of event organization to BSides Munich.
 Through previous experiences in stage management / production for theatre in the UK and US, as well as SciFi conventions in Germany, she teamed up with her husband to organize events for the computer security industry.
 Having lived and worked in a variety of countries, she enjoys traveling the globe and going to the theater.
 
-### Frederic
-{% include orgainfo.html twitter="@hashtagsecurity" %}
-With a background in lutherie and a career in infosec, Frederic enjoys making things as much as breaking them.
-He sees himself as a scripter, not coder and enjoys long breakfasts with tea, bread, jam and tons of RSS feeds.
-When he's not working as a security consultant or tearing software apart to find bugs, he can be found at Munich's boulder spots or hiking in the mountains.
-
-### Jenn
+### Laura
+{% include orgainfo.html twitter="@lauralifts" %}
+Laura comes from a software engineering, distributed systems and networks background more than security, but she has an interest in the field.
+She brings experience in organising other conferences as a program chair of a SRE-focused industry conference.
+Outside of work she enjoys hiking, scuba diving and reading, and delights in cooking very spicy food.
+### JennJ
 {% include orgainfo.html twitter="@jennjanesko" %}
 Suffering from persistent earworms, Jenn works as an earthling pentester by day.
 Her nights are littered with tinkering, bouldering, jogging, coding, video-editing, music-making and TV-binging.
 She prefers to undertake difficult tasks with epic background music and perpetually seeks early-evening karaoke and jeans made for short-legged tall people.
 Jenn finds it difficult to fill this 70 word description because she’s used to describing things in less than 140 characters.
+
+### JennS
+{% include orgainfo.html twitter="@jfoosh1899" %}
+Coming all the way from Atlanta, GA  USA to live in Germany, JennS is a seasoned Information Security Professional who has dabbled in all the InfoSec domains but her focus is in Risk Management, Audits, & Compliance.
+She was a former CISO, taught InfoSec courses at a University, and now employed at Oracle to lead their Security, Risk Management, and Compliance program for EMEA & APAC.
+While focused on her career, she also is a MOM to 2 active boys and a WIFE who all love to travel, enjoy the outdoors, and binge on eating, reading books and watching superhero movies.
 
 ### Morton
 {% include orgainfo.html twitter="@sifumoraga" %}
