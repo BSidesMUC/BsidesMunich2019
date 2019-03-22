@@ -58,6 +58,10 @@ Nicole is interested in technical gadgets and proudly calls herself owner of a N
 She is working as an auditor and data protection consultant and likes to enhance her knowledge by taking correspondence courses.
 She spends time with studying, adjusting her modest private cloud services and sports.
 
+### Stefan
+Stefan likes breaking all sorts of technical things, which designates him for his job as penetration tester.
+Apart from cybery things, his big passion is extreme music, which he can be found playing or listening to all day and night long, only seldom interrupted by occasional hiking and gaming (with or without a pc).
+
 
 {% comment %} 
 #![also the team]({{ "/img/team-2.jpg" | absolute_url }})
