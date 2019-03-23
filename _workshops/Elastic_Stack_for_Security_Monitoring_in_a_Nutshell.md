@@ -24,25 +24,26 @@ speakers:
 
 Elastic Stack is one of the most commonly used open source data analysis and management platform today.
 It quickly became popular among security professionals too and it is also the building block of many open source and commercial SIEM.
-Elastic Stack is designed for speed and ease of use; it indexes data as it is ingested (write once read many or "WORM" storage) and it is extremely scalable and powerful, making ad-hoc queries and real-time visualization very easy.
+Elastic Stack is designed for speed and ease of use;
+it indexes data as it is ingested (write once read many or "WORM" storage) and it is extremely scalable and powerful, making ad-hoc queries and real-time visualization very easy.
 
 The components in the Elastic Stack are designed to be used together and releases are synchronized to simplify the installation and upgrade process.
 The stack consists of:
 - Beats, which is the platform for single-purpose data shippers;
-- Logstash, which is a server-side data processing pipeline that ingests data from multiple sources, transforms it, and then sends it to one or more outputs (""stash"");
+- Logstash, which is a server-side data processing pipeline that ingests data from multiple sources, transforms it, and then sends it to one or more outputs ("stash");
 - Elasticsearch, which is a distributed, RESTful search and analytics engine;
 - Kibana, which lets users visualize data with charts, graphs, and dashboards.
 
-
-## Course outline:
+## Course Outline:
 During this two-hour workshop, we will see how to use Elastic Stack for security monitoring and cover the following topics:
-- Beats (filebeat, auditbeat, metricbeat, winlogbeat, etc.)
-- Logstash (input, filter, and output plugins, GROCK, etc.)
-- Elastic Search (cluster, node, index, shard, replica, mapping, search, aggregation, etc.)
-- Kibana (index patterns, discover, visualizations, dashboards, Timelion, Vega and VegaLite, etc.)
+- Beats (filebeat, winlogbeat, auditbeat, etc.)
+- Logstash (input, filter, and output plugins)
+- Elasticsearch (cluster, node, index, shard, mapping, search, aggregation, etc.)
+- Kibana (index patterns, searches, visualizations, dashboards, etc.)
 - Elastic Stack Alerting and Security (X-Pack, ElastAlert, Search Guard, ReadonlyREST, etc.)
 
 ## Requirements
-- A laptop with at least 8 GB of RAM and 40-50 GB of free disk space;
-- VMware Workstation, VMware Fusion or VMware Player installed."
+Technical requirements for the workshop:
+- A laptop with at least 8 GB of RAM and 30-50 GB of free disk space;
+- VMware Workstation, VMware Fusion or VMware Player installed.
 
