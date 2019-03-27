@@ -14,7 +14,7 @@ speakers:
     photo: 
     bio: "Muhammad Shahbaz is a blockchain developer at ABBC Payment Services Provider. He has a master's degree in information security and an electrical engineer with full stack development experience. He has discovered vulnerabilities in web and mobile applications and contributed to open source projects. He has published his research papers in IJCSSE journal."
 recording_uri: 
-slides_uri: 
+slides_uri: /files/02-03_SmartAuth.pdf
 ---
 
 To protect any resource in a system from an unauthorized entity, the authentication process is basic and the first line of defense. 
