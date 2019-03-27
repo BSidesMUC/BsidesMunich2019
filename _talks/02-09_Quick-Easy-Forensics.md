@@ -14,7 +14,7 @@ speakers:
     photo: 
     bio: "After spending 10 years as a NSA ROC Operator I have moved from the Red side to the Blue side, I have gone from the hunted to being the hunter. I am now working for Booz Allen Hamilton in Wiesbaden as the team lead of the Threat Hunting team charged with actively seeking out attackers on all of the US Army systems in Europe. When I’m not hunting for hackers I love skiing and mountain biking and I’m always busy trying to keep up with my three boys."
 recording_uri: 
-slides_uri: 
+slides_uri: /files/02-09-Forensic_Timeline_Dashboards_AaronJewitt.pdf
 ---
 
 Image your CISO comes into the SOC on a Saturday and asks a junior analyst for a full report of activity on a workstation in Singapore and he needs it in the next 20 minutes.
