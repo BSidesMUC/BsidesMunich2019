@@ -19,7 +19,7 @@ He has twice been nominated as a finalist for Cyber Evangelist Of The Year at th
     handle: 
     photo: 
     bio: "Tash is a Senior Cloud Security Engineer at Photobox Group (which includes Moonpig, PosterXXL in Munich, Greetz! and Hofmann). She is currently building tools and processes to automate all the things/ make the Cloud more secure. Previously Tash was a threat modelling engineer in financial services, she continues to contribute to threat modelling projects and resources via OWASP and other community events.<br>Tash is also on the review panel for DevSecCon, an OWASP contributor and an avid advocate for Women in Tech/Cyber, appearing at various tech and security events and meet-ups to talk about both technical and behavioural topics."
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=cDRUEYD9Bko&index=5&list=PL8N5HiRDvZ-f063NRSyVm4gEycdI54ZXD&t=0s
 slides_uri: 
 ---
 
