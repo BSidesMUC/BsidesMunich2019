@@ -13,7 +13,7 @@ speakers:
     handle: general_nfs
     photo: 
     bio: "Xiaoyin Liu is an independent security researcher and bug bounty hunter. He obtained his Bachelor of Science degree in mathematics and computer science from the University of North Carolina at Chapel Hill, in United States. He is mostly interested in hunting logical vulnerabilities in web browsers and other client applications on Windows. He has been acknowledged by Microsoft, Mozilla, Google, Brave Inc., Tor project, for multiple vulnerabilities found in IE, Edge, Firefox, Chrome, Brave, and Tor Browser. Besides bug hunting, he also likes to contribute to various IT communities, such as open source projects and IETF working group discussions on mailing lists. He is acknowledged as a contributor to RFC 8446 (TLS 1.3 spec) and RFC 8442. This talk at BSides Munich 2019 is his first talk given at an IT security conference."
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=FBjlrVD5rOs&list=PL8N5HiRDvZ-f063NRSyVm4gEycdI54ZXD&index=13&t=0s
 slides_uri: 
 ---
 
