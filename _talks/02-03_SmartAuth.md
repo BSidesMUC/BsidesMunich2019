@@ -13,7 +13,7 @@ speakers:
     handle: M_Shahbaz_A
     photo: 
     bio: "Muhammad Shahbaz is a blockchain developer at ABBC Payment Services Provider. He has a master's degree in information security and an electrical engineer with full stack development experience. He has discovered vulnerabilities in web and mobile applications and contributed to open source projects. He has published his research papers in IJCSSE journal."
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=rYWezQMGUKA&index=12&list=PL8N5HiRDvZ-f063NRSyVm4gEycdI54ZXD&t=0s
 slides_uri: /files/02-03_SmartAuth.pdf
 ---
 
