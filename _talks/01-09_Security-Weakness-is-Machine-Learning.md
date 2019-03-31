@@ -13,7 +13,7 @@ speakers:
     handle: etzoldio
     photo: 
     bio: "Daniel Etzold is IT Security Architect at 1&1 Mail & Media Development & Technology GmbH and is responsible for the Secure Software Development Lifecycle. He creates threat models, performs reviews and penetration tests and advises developers, product managers and executives. He also analyses the security risks which arise due to the use of machine learning and how machine learning can be used to increase the security of software systems."
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=EaPORv6_oCc&list=PL8N5HiRDvZ-f063NRSyVm4gEycdI54ZXD&index=8&t=0s
 slides_uri: 
 ---
 
