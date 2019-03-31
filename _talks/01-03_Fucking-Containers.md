@@ -13,7 +13,7 @@ speakers:
     handle: wintamute
     photo: 
     bio: "Starting with computers in the 80ies, I'm interested in technology ever since. I'm working in the cloud and automation field for the past several years and I'm highly interested in bringing more security to customers."
-recording_uri: 
+recording_uri: https://www.youtube.com/watch?v=EVuB7eaWUQ4&list=PL8N5HiRDvZ-f063NRSyVm4gEycdI54ZXD&index=4&t=0s
 slides_uri: 
 ---
 
