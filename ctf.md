@@ -1,13 +1,12 @@
 ---
 layout: textpage
-title: CTF
+title: BSidesMunich 2019 CTF: Captain Crypto's Revenge
 permalink: /ctf/
 robots: noindex
 ---
+###We saved the cat!
+2019 was the first time that BSidesMunich offered a CTF as part of the event. It was full of monkey, locks, cats and crypto. There were good things and things-to-improve. Overall though, the feedback has been positive, and we hope that participants had a good time!
 
-### 2019 CTF: Captain Crypto's Revenge
-
-2019 was the first time that BSidesMunich offered a CTF as part of the event. There were good things and thing-to-improve. Overall though, the feedback has been positive, and we hope that participants had a good time.
 
 #### Thank you...
 Thank you to the folks who competed in Captain Crypto's Revenge. You saved the cat, and we are grateful! 
