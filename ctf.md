@@ -5,10 +5,7 @@ permalink: /ctf/
 robots: noindex
 ---
 
-###We saved the cat!
-
-2019 was the first time that BSidesMunich offered a CTF as part of the event. It was full of monkeys, lions, dogs, cats and locks. There were good things, challenging things and things-to-improve. Overall though, the feedback has been positive, and we hope that participants had a good time!
-
+### We saved the cat!!
 
 #### Thank you...
 Thank you to the folks who competed in Captain Crypto's Revenge. You saved the cat, and we are grateful! 
