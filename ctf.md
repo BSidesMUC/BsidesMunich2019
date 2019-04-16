@@ -1,6 +1,6 @@
 ---
 layout: textpage
-title: BSidesMunich 2019 CTF: Captain Crypto's Revenge
+title: BSidesMunich 2019 CTF - Captain Cryptos Revenge
 permalink: /ctf/
 robots: noindex
 ---
