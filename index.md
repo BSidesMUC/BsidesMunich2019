@@ -1,6 +1,6 @@
 ---
 layout: textpage
-title: BSidesMunich will be back in March, 2019!
+title: Thanks for a great BSidesMunich 2019! Watch the recordings!
 
 ideal_image_slider: true
 ---

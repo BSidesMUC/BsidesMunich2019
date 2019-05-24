@@ -13,7 +13,7 @@ speakers:
     handle: 
     photo: 
     bio: "I´m a bachelor-student of Industrial Engineering and will hold my degree in March 2019. Right now, I´m doing my bachelor thesis about a self-made tool to automate firmware-analysis. I´m doing this in cooperation with Eurofins Cybersec GmbH. Since February 2018, I´m a student employee for Penetration Testing. I will be employed as Junior-Penetration-Tester in March 2019. Before 2018, I was working as a technician for machine tools at BMW but I was a computer kid my whole life."
-recording_uri: https://www.youtube.com/watch?v=sh0291f0JCA&index=15&list=PL8N5HiRDvZ-f063NRSyVm4gEycdI54ZXD&t=0s
+recording_uri: https://www.youtube.com/watch?v=sh0291f0JCA
 slides_uri: 
 ---
 

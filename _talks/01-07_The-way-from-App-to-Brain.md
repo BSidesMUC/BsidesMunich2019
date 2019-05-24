@@ -13,7 +13,7 @@ speakers:
     handle: difezza
     photo: 
     bio: "Denis has gained diverse experience while working in the information security area. On the defensive side, as a Security Architect, he is responsible for building a security architecture of distributed IT infrastructure across various international business units for a global Fortune 500 company.<br>As a security researcher with the Global Research and Analysis Team at Kaspersky Lab, he was focused on vulnerability research and security assessment of emerging technologies. Based on his offensive expertise, he's been a founder and leading expert in the development of a threat intelligence product.<br>Having graduated from the Information Security Faculty of the National Research Nuclear University MEPhI (Moscow Engineering Physics Institute), he is continuing his research project related to methods of targeted attack detection as a Ph.D. candidate <br>Denis has presented at many public international security conferences, including Defcon, RSA Conference, CARO, BSides, Infosecurity, as well as multiple closed-door invite-only security industry events."
-recording_uri: https://www.youtube.com/watch?v=TQQqnilFa-k&index=7&list=PL8N5HiRDvZ-f063NRSyVm4gEycdI54ZXD&t=0s
+recording_uri: https://www.youtube.com/watch?v=TQQqnilFa-k
 slides_uri: 
 ---
 

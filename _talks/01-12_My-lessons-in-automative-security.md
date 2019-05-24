@@ -13,7 +13,7 @@ speakers:
     handle: qobaiashi
     photo: 
     bio: "Active in the Security industry for 10 years, active in the scene for 20 years. Did kernel exploiting 15 years ago, learned that Web App Pentesting feeds your wallet but not your mind. Currently doing offensive security for an OEM."
-recording_uri: https://www.youtube.com/watch?v=VQeuKUQ8KOo&list=PL8N5HiRDvZ-f063NRSyVm4gEycdI54ZXD&index=10&t=0s
+recording_uri: https://www.youtube.com/watch?v=VQeuKUQ8KOo
 slides_uri: 
 ---
 
