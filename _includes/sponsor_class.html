@@ -12,6 +12,9 @@
   {% elsif include.class == site.conference.sponsors.bronze %}
     {% assign classname = "sponsor-bronze" %}
     {% assign classtext = "Bronze Sponsor" %}
+  {% elsif include.class == site.conference.sponsors.community %}
+    {% assign classname = "sponsor-community" %}
+    {% assign classtext = "Community Sponsor" %}
   {% endif %}
 
 <div class="row">

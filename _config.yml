@@ -90,6 +90,12 @@ conference:
       logo: /img/sponsors/siemens.png
       uri: https://siemens.com/cert/
 
+    community:
+    - name: Elbsides
+      logo: /img/sponsors/elbsides.png
+      uri: https://elbsides.de/
+
+
   links:
     sponsorpackage_en_uri: /files/BSidesMunich2019Sponsorship-English.pdf
     sponsorpackage_de_uri: /files/BSidesMunich2019Sponsorship-Deutsch.pdf
@@ -122,7 +128,6 @@ conference:
       - src: img/slider2018/organizers.jpg
       - src: img/slider2018/MS-P4080195.jpg
       - src: img/slider2018/MS-P4090241.jpg
-      - src: img/slider2018/MS-P4090246.jpg
       - src: img/slider2018/MS-P4090485.jpg
       - src: img/slider2018/MS-P4090947.jpg
 compress_html:
