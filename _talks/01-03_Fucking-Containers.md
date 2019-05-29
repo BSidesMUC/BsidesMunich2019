@@ -14,7 +14,7 @@ speakers:
     photo: 
     bio: "Starting with computers in the 80ies, I'm interested in technology ever since. I'm working in the cloud and automation field for the past several years and I'm highly interested in bringing more security to customers."
 recording_uri: https://www.youtube.com/watch?v=EVuB7eaWUQ4
-slides_uri: 
+slides_uri: /files/01-03_Fucking-Containers
 ---
 
 How do containers actually work?
